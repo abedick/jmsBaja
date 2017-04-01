@@ -1,0 +1,180 @@
+body {
+    background: #c8c8c8 url("smiley.gif") no-repeat fixed center;*/
+
+}
+
+
+.bdy_container {
+    width: 1065px;
+    margin-top: 0px;
+    margin: auto;
+}
+
+.content_container {
+    float: left;
+    width: 100%;
+    padding: 0;
+    background: #e7e7e7;
+    position: relative;
+    overflow: hidden;
+/*    background-image: url('images/layout/content_grunge.png');*/
+}
+
+.content_container:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    opacity: 0.7;
+    background-image: url('images/layout/content_grunge.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.content_block {
+    width: 972px;
+    border:1px solid #424242;
+    margin-left: 5%;
+    padding-left: 1.5%;
+    background: #494949;
+/*    opacity: 0.65;*/
+/*    filter: alpha(opacity=65); /* For IE8 and earlier */*/
+}
+
+.title_bar {
+    width: 915px;
+    height: 35px;
+    border:0;
+    margin-left: -5%;
+    padding-left: 1.5%;
+    background: #0066b1;
+    border-radius: 7.5px;
+}
+
+p.content_text {
+    position: relative;
+    color: #fff;
+    font: 1em   Century Gothic;
+    z-index: 4;
+}
+
+p.title_bar_text {
+    text-transform: uppercase;
+    color: #fff;
+    font: 1.25em Century Gothic;
+    padding-left: 25px;
+    line-height: 35px;
+    z-index: 2;
+}
+p.roster {
+    color: #fff;
+    font: 1em   Century Gothic;
+}
+p.roster:before {
+/*    height: 100%;*/
+/*    content:"{ ";*/
+}
+.hype {
+  z-index: 2;
+}
+p.rotate {
+
+    /* Safari */
+    -webkit-transform: rotate(-90deg);
+
+    /* Firefox */
+    -moz-transform: rotate(-90deg);
+
+    /* IE */
+    -ms-transform: rotate(-90deg);
+
+    /* Opera */
+    -o-transform: rotate(-90deg);
+
+    /* Internet Explorer */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    color: #fff;
+    font: 1em   Century Gothic;
+}
+
+.logo {
+    display: inline-block;
+    width: 1065px;
+    height: 354px;
+    margin: 0px;
+    border: 0px;
+    background-image: url('images/layout/header_background.png');
+}
+
+.space {
+    display: inline-block;
+    width: 55%;
+    height: 30%;
+
+}
+.headset {
+    display: inline-block;
+    height: 70%;
+    margin-left: 52%;
+
+}
+
+
+p.navi_bar {
+    text-transform: uppercase;
+    color: #fff;
+    font: 20px Century Gothic;
+    position: relative;
+}
+a:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #434343;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: #434343;
+    text-decoration: none;
+}
+
+.footer {
+    float: left;
+    width: 100%;
+    padding: 0;
+    background: #0f0f0f;
+    opacity: 0.25;
+    filter: alpha(opacity=25); /* For IE8 and earlier */
+}
+
+th, td {
+    padding-left: 5px;
+    padding-top: 0px;
+    text-align: left;
+
+}
+
+/*div.content_wrapper {*/
+/*    width: 90%;*/
+/*    margin: 0 auto;*/
+/*}*/
